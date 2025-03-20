@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Statistical Analysis Calculator</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Statistical Analysis Calculator</h3>
+                        <form class="requires-validation" novalidate>
+                            <div class="col-md-12">
+                                <input class="form-control" type="text" id="numbers" placeholder="Enter numbers separated by commas." required>
+                            </div>
+                            <div class="form-button mt-3">
+                                <button type="submit" class="form-control btn btn-primary submit px-3" id="cal">Calculate</button>
+                            </div>
+                        </form>
+                        <p></p>
+                        <h3>Results</h3>
+                        <p>Maximum: <span id="maxResult"></span></p>
+                        <p>Minimum: <span id="minResult"></span></p>
+                        <p>Average: <span id="averageResult"></span></p>
+                        <p>Median: <span id="medianResult"></span></p>
+                        <p>Range: <span id="rangeResult"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <script  src="./script.js"></script>
+</body>
+</html>
