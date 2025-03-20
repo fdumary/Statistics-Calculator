@@ -1,4 +1,5 @@
 # Statistics-Calculator
+https://fdumary.github.io/Statistics-Calculator/
 
 This web app performs a simple statistical analysis on a small set of numbers.
 
